@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const imgs = [
+  { img: "/hero/11.webp" },
   { img: "/hero/1.webp" },
   { img: "/hero/2.webp" },
   { img: "/hero/3.webp" },
@@ -16,7 +17,6 @@ const imgs = [
   { img: "/hero/8.webp" },
   { img: "/hero/9.webp" },
   { img: "/hero/10.webp" },
-  
 ];
 
 const Carousel = () => {
