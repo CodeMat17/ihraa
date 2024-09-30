@@ -2,13 +2,8 @@
 
 "use client";
 
-import { Nerko_One } from "next/font/google";
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Button } from "./ui/button";
-
-const nerkoOne = Nerko_One({ subsets: ["latin"], weight: ["400"] });
 
 const imgs = [
   { img: "/hero/1.webp" },
@@ -62,9 +57,10 @@ const Carousel = () => {
           World Human Rights and Aids Foundation (WHRAF)
         </h2>
         <p className='text-lg text-center font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300 mt-1 mb-6 max-w-5xl mx-auto'>
-          Dedicated to advocating for global human rights, combating economic
-          crises, promoting child protection, HIV/AIDS treatment, and the rights
-          of marginalized communities.
+          WHRAF tackles critical humanitarian issues including economic crises,
+          child protection, HIV/AIDS treatment, prostitution, and the rights of
+          sex workers. Our mission also extends to youth empowerment and
+          addressing the impacts of climate change.
         </p>
       </div>
     </div>
