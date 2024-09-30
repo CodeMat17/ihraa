@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 const links = [
   { tag: "Register", href: "/registration", gif: "/register.gif" },
   { tag: "Events", href: "/events", gif: "/events.gif" },
-  { tag: "Sponsor", href: "/sponsor", gif: "/sponsors.gif" },
+  { tag: "Sponsor", href: "/sponsors", gif: "/sponsor.gif" },
 ];
 
 const Home = () => {
