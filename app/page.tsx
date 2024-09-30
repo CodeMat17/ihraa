@@ -3,9 +3,9 @@ import Link from "next/link";
 import Hero from "../components/Hero";
 
 const links = [
-  { tag: "Register", href: "/register", gif: "/register.gif" },
+  { tag: "Register", href: "/registration", gif: "/register.gif" },
   { tag: "Events", href: "/events", gif: "/events.gif" },
-  { tag: "Sponsor", href: "/sponsor", gif: "/sponsor.gif" },
+  { tag: "Sponsor", href: "/sponsor", gif: "/sponsors.gif" },
 ];
 
 const Home = () => {
