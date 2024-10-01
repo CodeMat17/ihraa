@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Registration = () => {
   return (
-    <div className='w-full max-w-5xl mx-auto px-4 pb-12 pt-6 '>
+    <div className='w-full min-h-screen max-w-5xl mx-auto px-4 pb-12 pt-6 '>
       <h1 className='text-3xl text-center font-semibold'>REGISTRATION</h1>
 
       <div className='mt-8 space-y-3'>
@@ -29,7 +29,7 @@ const Registration = () => {
         </p>
         <p>
           Delegates will need to arrange and pay for their hotel accommodations
-          with our recommended hotel in Saint Louis, Senegal. Further details
+          with our recommended hotels. Further details
           will be provided upon confirmation of your registration.
         </p>
         <p>

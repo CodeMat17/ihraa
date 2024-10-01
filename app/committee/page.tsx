@@ -2,10 +2,6 @@ import Image from "next/image";
 
 const list = [
   {
-    name: "Michael Thase",
-    position: "Co-Chair, Steering Committee (Oversight and Governance)",
-  },
-  {
     name: "Chantal Henry",
     position: "Co-Chair, Steering Committee (Strategic Planning and Policy)",
   },
@@ -18,10 +14,6 @@ const list = [
     name: "James Cruze",
     position:
       "Co-Chair, Scientific Program Committee (Scientific Publications and Outreach)",
-  },
-  {
-    name: "John Geddes",
-    position: "Co-Chair, Scientific Program Committee (Ethics and Compliance)",
   },
   {
     name: "Christine Kuehne​r",
@@ -43,21 +35,6 @@ const list = [
     position: "Co-Chair, Steering Committee (Donor and Sponsor Relations)",
   },
   {
-    name: "Laura Fernandez",
-    position:
-      "Co-Chair, Steering Committee (Global Partnerships and Alliances)",
-  },
-  {
-    name: "David Hanley",
-    position:
-      "Co-Chair, Scientific Program Committee (Grant Writing and Funding)",
-  },
-  {
-    name: "Sophia Martins",
-    position:
-      "Co-Chair, Scientific Program Committee (Data Management and Analytics)",
-  },
-  {
     name: "Gabriel Chen",
     position:
       "Co-Chair, Scientific Program Committee (Program Evaluation and Impact Assessment)",
@@ -66,10 +43,6 @@ const list = [
     name: "Isabella Grange",
     position:
       "Co-Chair, Local Organizing Committee (Public Relations and Media)",
-  },
-  {
-    name: "Nathaniel Cole",
-    position: "Co-Chair, Local Organizing Committee (Volunteer Coordination)",
   },
   {
     name: "Rachel Huang",
@@ -82,11 +55,6 @@ const list = [
       "Co-Chair, Scientific Program Committee (Technology Integration and IT)",
   },
   {
-    name: "Emily Mitchell",
-    position:
-      "Co-Chair, Local Organizing Committee (Sustainability and Environmental Practices)",
-  },
-  {
     name: "Lucas Schneider",
     position:
       "Co-Chair, Steering Committee (Risk Management and Legal Affairs)",
@@ -95,16 +63,6 @@ const list = [
     name: "Julia Evans",
     position:
       "Co-Chair, Scientific Program Committee (Educational Outreach and Mentorship)",
-  },
-  {
-    name: "Richard Foster",
-    position:
-      "Co-Chair, Local Organizing Committee (Conference Marketing and Promotion)",
-  },
-  {
-    name: "Victoria Ramirez",
-    position:
-      "Co-Chair, Scientific Program Committee (Health and Safety Protocols)",
   },
 ];
 
@@ -117,13 +75,13 @@ const Committee = () => {
           <Image
             alt=''
             priority
-            width={640}
-            height={311}
-            src='/staff.webp'
-            className='rounded-md object-cover'
+            width={1600}
+            height={415}
+            src='/comi.webp'
+            className='rounded-md w-full h-[300px] object-cover'
           />
         </div>
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className='mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
           {list.map((item, index) => (
             <div key={index}>
               <h1>{item.name}</h1>
