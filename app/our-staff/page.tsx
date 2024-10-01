@@ -43,10 +43,10 @@ const OurStaff = () => {
           <Image
             alt=''
             priority
-            width={640}
-            height={311}
+            width={500}
+            height={200}
             src='/staff.webp'
-            className='rounded-lg aspect-video object-cover'
+            className='rounded-lg w-[500px] aspect-video object-cover'
           />
         </div>
 
