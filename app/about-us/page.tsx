@@ -26,36 +26,33 @@ const names = [
 
 const AboutUs = () => {
   return (
-    <div className='w-full max-w-[967px] mx-auto min-h-screen px-4 pt-6 pb-12'>
+    <div className='w-full max-w-6xl mx-auto min-h-screen px-4 pt-6 pb-12'>
       <h1 className='text-3xl text-center font-semibold'>About WHRAF</h1>
       <div className='mt-5 flex gap-8'>
-        <div className='w-full lg:w-[70%]'>
+        <div className='w-full lg:w-[80%]'>
           <div className='relative w-full  h-[150px] aspect-video object-cover overflow-hidden rounded-md border'>
             <Image alt='' priority fill src='/about-whraf.webp' />
           </div>
           <div>
             <p className='mt-3'>
               The World Human Rights and AIDS Foundation (WHRAF) is a
-              nonpartisan, nonprofit organization dedicated to the global
-              promotion and protection of human rights, with a special focus on
-              supporting individuals in closed and oppressed societies. WHRAF
-              brings together people from all walks of life in a united mission
-              to defend human rights and advance the cause of liberal democracy
-              worldwide.
+              nonpartisan, nonprofit organization committed to promoting and
+              protecting human rights globally, with a focus on individuals in
+              closed and oppressed societies. Our mission is to safeguard
+              freedom, advance liberal democracy, and uphold the core principles
+              of the 1976 International Covenant on Civil and Political Rights
+              (ICCPR).
             </p>
             <p className='mt-3'>
-              Our mission is simple yet profound: to safeguard freedom and
-              ensure that it flourishes across the globe. We are committed to
-              promoting the core principles that lie at the heart of the human
-              rights movement, as outlined in the 1976 International Covenant on
-              Civil and Political Rights (ICCPR). These founding ideals continue
-              to guide our work, as we strive to protect civil liberties,
-              political freedom, and the dignity of every individual.
+              WHRAF addresses urgent humanitarian challenges like the economic
+              crisis, child protection, HIV/AIDS treatment, prostitution, and
+              the rights of sex workers. We also champion youth empowerment and
+              climate change action.
             </p>
             <p className='mt-3'>
-              To learn more about this international effort, you can view the
-              full list of ICCPR signatories, standing in solidarity for the
-              preservation and promotion of human rights.
+              Our goal is to establish NGOs in 25 countries, with an emphasis on
+              Africa and parts of Asia. NGOs will be awarded to participants by
+              merit.
             </p>
           </div>
 
@@ -130,36 +127,36 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className='hidden lg:block -mt-3 space-y-3'>
+        <div className='hidden lg:block space-y-3'>
           <Image
             alt=''
-            width={400}
+            width={200}
             height={200}
-            src='/about-whraf-2.webp'
-            className='w-full object-cover rounded-md'
+            src='/cry.webp'
+            className='w-full aspect-auto object-cover rounded-md'
           />
 
           <Image
             alt=''
             width={200}
             height={200}
-            src='/about-whraf-3.webp'
-            className='w-full object-cover rounded-md'
+            src='/chain.webp'
+            className='w-full aspect-auto object-cover rounded-md'
           />
 
           <Image
             alt=''
             width={200}
             height={200}
-            src='/about-whraf-4.webp'
-            className='w-full object-cover rounded-md'
+            src='/one.webp'
+            className='w-full aspect-auto object-cover rounded-md'
           />
 
           <Image
             alt=''
             width={200}
             height={200}
-            src='/about-whraf-5.webp'
+            src='/kids.webp'
             className='w-full object-cover rounded-md'
           />
         </div>
