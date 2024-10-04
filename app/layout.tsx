@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/theme-provider";
-import type { Metadata } from "next";
+// import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Header from "../components/Header";
 import "./globals.css";
@@ -16,11 +16,11 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-export const metadata: Metadata = {
-  title: "WHRAF | Advocating for Global Human Rights",
-  description:
-    "The World Human Rights and Aids Foundation (WHRAF) is dedicated to promoting and protecting human rights worldwide. Through initiatives focused on combating economic crises, child protection, HIV/AIDS treatment, forced labor, and the rights of sex workers, WHRAF works to foster social inclusion, equality, and dignity for all. Join us in our global conferences, research programs, and advocacy efforts to create lasting impact in the fight for justice and human rights.",
-};
+// export const metadata: Metadata = {
+//   title: "WHRAF | Advocating for Global Human Rights",
+//   description:
+//     "The World Human Rights and Aids Foundation (WHRAF) is dedicated to promoting and protecting human rights worldwide. Through initiatives focused on combating economic crises, child protection, HIV/AIDS treatment, forced labor, and the rights of sex workers, WHRAF works to foster social inclusion, equality, and dignity for all. Join us in our global conferences, research programs, and advocacy efforts to create lasting impact in the fight for justice and human rights.",
+// };
 
 export default function RootLayout({
   children,
