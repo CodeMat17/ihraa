@@ -27,7 +27,7 @@ const names = [
 const AboutUs = () => {
   return (
     <div className='w-full max-w-6xl mx-auto min-h-screen px-4 pt-6 pb-12'>
-      <h1 className='text-3xl text-center font-semibold'>About WHRAF</h1>
+      <h1 className='text-3xl text-center font-semibold'>About IHRAA</h1>
       <div className='mt-5 flex gap-8'>
         <div className='w-full lg:w-[80%]'>
           <div className='relative w-full  h-[150px] aspect-video object-cover overflow-hidden rounded-md border'>
@@ -35,7 +35,7 @@ const AboutUs = () => {
           </div>
           <div>
             <p className='mt-3'>
-              The World Human Rights and AIDS Foundation (WHRAF) is a
+              The International Human Rights and AIDS Orientation (IHRAA) is a
               nonpartisan, nonprofit organization committed to promoting and
               protecting human rights globally, with a focus on individuals in
               closed and oppressed societies. Our mission is to safeguard
@@ -44,7 +44,7 @@ const AboutUs = () => {
               (ICCPR).
             </p>
             <p className='mt-3'>
-              WHRAF addresses urgent humanitarian challenges like the economic
+              IHRAA addresses urgent humanitarian challenges like the economic
               crisis, child protection, HIV/AIDS treatment, prostitution, and
               the rights of sex workers. We also champion youth empowerment and
               climate change action.
@@ -65,19 +65,19 @@ const AboutUs = () => {
             </h2>
 
             <p className='mt-4'>
-              Grounded in a deep commitment to individual liberty, the World
-              Human Rights and AIDS Foundation (WHRAF) is dedicated to raising
-              awareness about the importance of freedom and its vulnerability
-              across the globe. Our programs are designed to educate and
-              inspire, helping people understand what makes a society truly
-              free, why freedom is essential, and how it can be nurtured,
-              developed, and sustained.
+              Grounded in a deep commitment to individual liberty, the
+              International Human Rights and AIDS Orientation (IHRAA) is
+              dedicated to raising awareness about the importance of freedom and
+              its vulnerability across the globe. Our programs are designed to
+              educate and inspire, helping people understand what makes a
+              society truly free, why freedom is essential, and how it can be
+              nurtured, developed, and sustained.
             </p>
             <p className='mt-3'>
               We strive to reach a wide audience—from global leaders and experts
               to intellectuals and the general public—by promoting freedom and
               tolerance in regions where these values are most under threat.
-              WHRAF&apo;s initiatives span a broad spectrum, including:
+              IHRAA&apo;s initiatives span a broad spectrum, including:
             </p>
             <p>- Successful campaigns to free political prisoners.</p>
             <p>- On-the-ground educational programs in closed societies.</p>
@@ -96,7 +96,7 @@ const AboutUs = () => {
               Programs section of our website.
             </p>
             <p className='mt-3'>
-              Founded in 2005, WHRAF officially opened its offices in New Jersey
+              Founded in 2005, IHRAA officially opened its offices in New Jersey
               in April 2006. Since then, we have been at the forefront of global
               efforts to defend human rights and promote liberty.
             </p>

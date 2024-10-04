@@ -10,7 +10,7 @@ const links = [
 
 const Home = () => {
   return (
-    <div className="w-full min-h-screen">
+    <div className='w-full min-h-screen'>
       <Hero />
       <div className='px-3 py-12 flex flex-col md:flex-row justify-center items-center gap-4 lg:gap-6'>
         <div className='relative flex justify-center md:w-[263px]'>
@@ -25,27 +25,27 @@ const Home = () => {
         </div>
         <div className='md:w-[60%] lg:w-[50%] dark:text-gray-400'>
           <p className=''>
-            The World Human Rights and AIDS Foundation (WHRAF) is a global
-            network of 62 member institutions dedicated to advancing research
-            and education in the field of human rights. Representing 33
+            The International Human Rights and AIDS Orientation (IHRAA) is a
+            global network of 62 member institutions dedicated to advancing
+            research and education in the field of human rights. Representing 33
             countries, WHRAF brings together experts, scholars, and advocates
             across various disciplines to foster the exchange of ideas,
             collaboration, and dialogue on critical human rights issues.
           </p>
           <p className='mt-3'>
             With a strong commitment to supporting PhD researchers and
-            facilitating cooperation between its member institutions, WHRAF
+            facilitating cooperation between its member institutions, IHRAA
             creates opportunities for meaningful engagement and research
             development.
           </p>
           <p className='mt-3'>
-            At the heart of WHRAF&apos;s mission are two pressing global
+            At the heart of IHRAA&apos;s mission are two pressing global
             concerns: migration, with a particular focus on immigration, and the
             complex issues surrounding propaganda and freedom of speech.
-            Additionally, WHRAF addresses urgent humanitarian challenges such as
+            Additionally, IHRAA addresses urgent humanitarian challenges such as
             the economic crisis, child protection, HIV/AIDS treatment,
             prostitution, and the rights of sex workers. Through these efforts,
-            WHRAF is dedicated to protecting vulnerable populations and
+            IHRAA is dedicated to protecting vulnerable populations and
             promoting justice, equality, and human dignity worldwide.
           </p>
         </div>
@@ -96,9 +96,9 @@ const Home = () => {
         </h2>
         <div className='mt-6'>
           <p>
-            The World Human Rights and AIDS Foundation (WHRAF) is excited to
-            announce its collaboration with the Special Journal Issue on
-            Economic Crisis, Child Protection & HIV/AIDS Treatment,
+            The International Human Rights and AIDS Orientation (IHRAA) is
+            excited to announce its collaboration with the Special Journal Issue
+            on Economic Crisis, Child Protection & HIV/AIDS Treatment,
             Prostitution, and Sex Workers for the 2017 conference. A selection
             of high-impact, full-text papers submitted to the conference will be
             considered for inclusion in this special journal issue.
@@ -165,16 +165,16 @@ const Home = () => {
 
       <div className='pb-12 px-3 w-full max-w-5xl mx-auto dark:text-gray-400'>
         <p>
-          The World Human Rights and AIDS Foundation (WHRAF) is leading a vital
-          humanitarian response to support thousands of people fleeing across
-          the Syrian border each day, as well as those trapped by the ongoing
-          violence within the country. WHRAF provides critical medical
+          The International Human Rights and AIDS Orientation (IHRAA) is leading
+          a vital humanitarian response to support thousands of people fleeing
+          across the Syrian border each day, as well as those trapped by the
+          ongoing violence within the country. WHRAF provides critical medical
           assistance, aids women and girls who are victims of violence, and
           ensures that refugees have access to their legal rights.
         </p>
         <p className='mt-3'>
           Founded in 1960 at the annual &quot;Conference of Four State
-          Commissions&quot; in California, WHRAF is a private, non-profit
+          Commissions&quot; in California, IHRAA is a private, non-profit
           organization based in Baltimore, Maryland. Since its inception, the
           foundation has remained committed to defending human rights and
           providing essential aid to vulnerable populations worldwide.

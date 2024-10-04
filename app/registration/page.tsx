@@ -37,12 +37,12 @@ const Registration = () => {
           download the registration form. Fill it out with accurate information
           and submit the completed form, along with a scanned copy of your
           passport and hotel booking confirmation, to the conference secretariat
-          at events@whraf.org. This will finalize your registration for the
+          at info@ihraa.org. This will finalize your registration for the
           event.
         </p>
       </div>
       <div className='z-10 mt-8 flex items-center justify-center'>
-        <Link href='mailto:events@whraf.org'>
+        <Link href='mailto:info@ihraa.org'>
           <ShimmerButton className='shadow-2xl'>
             <span className='whitespace-pre-wrap text-center font-medium leading-none tracking-wider text-white dark:from-white dark:to-slate-900/10 lg:text-lg'>
               REGISTER

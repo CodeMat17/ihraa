@@ -39,8 +39,9 @@ const Events = () => {
             className='rounded-md'
           />
           <h2 className='text-2xl font-medium text-amber-500 max-w-sm'>
-            Conference Venue @ Maryland Convention Center USA & Maison De La
-            Culture Douta Seck, in Dakar, Senegal.
+            AMA Conference Center New York City 1601 Broadway 6th floor, New
+            York, NY 10019, United States and Maison De La Culture Douta Seck, in
+            Dakar, Senegal.
           </h2>
         </div>
         <div className='py-12 '>

@@ -71,7 +71,7 @@ const Visa = () => {
           </p>
           <p className='mt-4'>
             Should you have any questions or require assistance, feel free to
-            contact the conference secretariat at events@whraf.org.
+            contact the conference secretariat at info@ihraa.org.
           </p>
         </div>
       </div>

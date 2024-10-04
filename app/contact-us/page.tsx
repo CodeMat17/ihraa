@@ -17,8 +17,7 @@ const ContactUs = () => {
           Address - 5609 Old Court Road, Windsor Mill, Baltimore, <br />
           MD 21244 - 1146, USA <br />
           Tel :+1- (770) 824-8695 Fax +1 (844) 381-2123 <br />
-          E-mail: events@whraf.org <br />
-          E-mail: info@whraf.org
+          E-mail: info@ihraa.org
         </p>
       </div>
       <div className='z-10 mt-8 flex items-center justify-center'>

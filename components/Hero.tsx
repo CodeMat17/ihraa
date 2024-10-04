@@ -54,10 +54,10 @@ const Carousel = () => {
       <div className='absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center px-4'>
         <h2
           className={`  font-bold text-4xl sm:text-5xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200`}>
-          World Human Rights and Aids Foundation (WHRAF)
+          INTERNATIONAL HUMAN RIGHTS AND AIDS ORIENTATION (IHRAA)
         </h2>
         <p className='text-lg text-center font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300 mt-1 mb-6 max-w-5xl mx-auto'>
-          WHRAF tackles critical humanitarian issues including economic crises,
+          IHRAA tackles critical humanitarian issues including economic crises,
           child protection, HIV/AIDS treatment, prostitution, and the rights of
           sex workers. Our mission also extends to youth empowerment and
           addressing the impacts of climate change.
