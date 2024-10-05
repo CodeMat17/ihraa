@@ -21,7 +21,7 @@ const ContactUs = () => {
         </p>
       </div>
       <div className='z-10 mt-8 flex items-center justify-center'>
-        <Link href='mailto:events@whraf.org'>
+        <Link href='mailto:info@ihraa.org'>
           <ShimmerButton className='shadow-2xl'>
             <span className='whitespace-pre-wrap text-center font-medium leading-none tracking-wider text-white dark:from-white dark:to-slate-900/10 lg:text-lg'>
               CONTACT US
