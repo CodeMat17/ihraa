@@ -68,27 +68,45 @@ const list = [
 
 const Committee = () => {
   return (
-    <div className='w-full min-h-screen max-w-6xl mx-auto px-4 pt-6 pb-12 dark:text-gray-400'>
-      <h1 className='text-3xl text-center font-semibold'>Committee Members</h1>
-      <div className='mt-12'>
-        <div className='flex justify-center'>
-          <Image
-            alt=''
-            priority
-            width={1600}
-            height={415}
-            src='/comi.webp'
-            className='rounded-md w-full h-[300px] object-cover'
-          />
+    <div className='w-full min-h-screen max-w-6xl mx-auto px-4 pt-6 pb-12 dark:text-gray-400 flex flex-col lg:flex-row gap-8 lg:items-start lg:justify-start'>
+      <div>
+        <h1 className='text-3xl text-center font-semibold'>
+          Committee Members
+        </h1>
+        <div className='mt-12'>
+          <div className='flex justify-center'>
+            <Image
+              alt=''
+              priority
+              width={1600}
+              height={415}
+              src='/comi.webp'
+              className='rounded-md w-full h-[300px] object-cover'
+            />
+          </div>
+          <div className='mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+            {list.map((item, index) => (
+              <div key={index}>
+                <h1>{item.name}</h1>
+                <p>{item.position}</p>
+              </div>
+            ))}
+          </div>
         </div>
-        <div className='mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-          {list.map((item, index) => (
-            <div key={index}>
-              <h1>{item.name}</h1>
-              <p>{item.position}</p>
-            </div>
-          ))}
-        </div>
+      </div>
+      <div className='flex flex-col justify-center items-center gap-4 bg-amber-100 dark:bg-gray-950 rounded-xl overflow-hidden p-9 lg:mt-20'>
+        <Image
+          alt=''
+          priority
+          width={300}
+          height={400}
+          src='/a_coor.webp'
+          className='rounded-xl lg:w-[500px]'
+        />
+        <h3 className='text-center'>
+          <span className='text-lg font-semibold'>Prof Isaac Yohanna</span>{" "}
+          <br /> Coordinator (Africa) <br /> IHRAA
+        </h3>
       </div>
     </div>
   );

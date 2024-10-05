@@ -46,7 +46,7 @@ const OurStaff = () => {
             width={500}
             height={200}
             src='/staff.webp'
-            className='rounded-lg w-[500px] aspect-video object-cover'
+            className='rounded-lg w-full h-[300px] aspect-video object-cover'
           />
         </div>
 
@@ -68,10 +68,10 @@ const OurStaff = () => {
           </p>
         </div>
       </div>
-          <div className='mt-8 grid grid-cols-1 md:grid-cols-2'>
-              {list.map((item, index) => (
-                  <p key={index}>{item.name}</p>
-              ))}
+      <div className='mt-8 grid grid-cols-1 md:grid-cols-2 '>
+        {list.map((item, index) => (
+          <p key={index} className="pb-1">{item.name}</p>
+        ))}
       </div>
     </div>
   );
