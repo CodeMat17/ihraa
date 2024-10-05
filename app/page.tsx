@@ -28,7 +28,7 @@ const Home = () => {
             The International Human Rights and AIDS Organization (IHRAA) is a
             global network of 62 member institutions dedicated to advancing
             research and education in the field of human rights. Representing 33
-            countries, WHRAF brings together experts, scholars, and advocates
+            countries, IHRAA brings together experts, scholars, and advocates
             across various disciplines to foster the exchange of ideas,
             collaboration, and dialogue on critical human rights issues.
           </p>
@@ -168,7 +168,7 @@ const Home = () => {
           The International Human Rights and AIDS Orientation (IHRAA) is leading
           a vital humanitarian response to support thousands of people fleeing
           across the Syrian border each day, as well as those trapped by the
-          ongoing violence within the country. WHRAF provides critical medical
+          ongoing violence within the country. IHRAA provides critical medical
           assistance, aids women and girls who are victims of violence, and
           ensures that refugees have access to their legal rights.
         </p>
