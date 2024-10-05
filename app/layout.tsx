@@ -39,7 +39,7 @@ export default function RootLayout({
           <div className='hidden w-full px-4 py-1.5 sm:flex justify-end gap-4 text-amber-500 bg-amber-100'>
             <p>Tel: +1-(770)824-8695</p>
             <p>Fax: +1 855-283-6477</p>
-            <p>E-mail: events@whraf.org</p>
+            <p>E-mail: info@ihraa.org</p>
           </div>
           <Header />
           <main> {children}</main>

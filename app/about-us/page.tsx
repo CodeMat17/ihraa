@@ -35,7 +35,7 @@ const AboutUs = () => {
           </div>
           <div>
             <p className='mt-3'>
-              The International Human Rights and AIDS Orientation (IHRAA) is a
+              The International Human Rights and AIDS Organization (IHRAA) is a
               nonpartisan, nonprofit organization committed to promoting and
               protecting human rights globally, with a focus on individuals in
               closed and oppressed societies. Our mission is to safeguard
@@ -66,7 +66,7 @@ const AboutUs = () => {
 
             <p className='mt-4'>
               Grounded in a deep commitment to individual liberty, the
-              International Human Rights and AIDS Orientation (IHRAA) is
+              International Human Rights and AIDS Organization (IHRAA) is
               dedicated to raising awareness about the importance of freedom and
               its vulnerability across the globe. Our programs are designed to
               educate and inspire, helping people understand what makes a

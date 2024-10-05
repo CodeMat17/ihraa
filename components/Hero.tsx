@@ -54,7 +54,7 @@ const Carousel = () => {
       <div className='absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-center px-4'>
         <h2
           className={`  font-bold text-4xl sm:text-5xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200`}>
-          INTERNATIONAL HUMAN RIGHTS AND AIDS ORIENTATION (IHRAA)
+          INTERNATIONAL HUMAN RIGHTS AND AIDS ORGANIZATION (IHRAA)
         </h2>
         <p className='text-lg text-center font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300 mt-1 mb-6 max-w-5xl mx-auto'>
           IHRAA tackles critical humanitarian issues including economic crises,

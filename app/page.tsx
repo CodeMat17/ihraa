@@ -25,7 +25,7 @@ const Home = () => {
         </div>
         <div className='md:w-[60%] lg:w-[50%] dark:text-gray-400'>
           <p className=''>
-            The International Human Rights and AIDS Orientation (IHRAA) is a
+            The International Human Rights and AIDS Organization (IHRAA) is a
             global network of 62 member institutions dedicated to advancing
             research and education in the field of human rights. Representing 33
             countries, WHRAF brings together experts, scholars, and advocates
@@ -96,7 +96,7 @@ const Home = () => {
         </h2>
         <div className='mt-6'>
           <p>
-            The International Human Rights and AIDS Orientation (IHRAA) is
+            The International Human Rights and AIDS Organization (IHRAA) is
             excited to announce its collaboration with the Special Journal Issue
             on Economic Crisis, Child Protection & HIV/AIDS Treatment,
             Prostitution, and Sex Workers for the 2017 conference. A selection
